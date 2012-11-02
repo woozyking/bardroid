@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Everything must be in HTML 5 markup -->
+
+<!-- Meta -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<!-- CSS -->
+<link rel="stylesheet" href="css/jquery.mobile-1.0a3.min.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/main.css" type="text/css" media="all" />
+
+<!-- JS -->
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.mobile-1.0a3.min.js"></script>
+<script src="js/main.js"></script>
+
+<title>Bar Droid</title>
+</head>
+<body>
+	<!-- Page: home -->
+	<div data-role="page" id="home">
+		<div data-role="header" data-position="fixed">
+			<h1>Bar Droid</h1>
+		</div><!-- /header -->
+
+		<div data-role="content">
+			<p>To get started, please select your beverage type.</p>
+
+			<div>
+				<a href="#liquor-tos" data-role="button" id="liquorBtn">Liquor</a>
+				<a href="#" data-role="button">Pop</a>
+			</div>
+		</div><!-- /content -->
+	</div>
+
+	<!-- Page: liquor tos -->
+	<div data-role="page" id="liquor-tos">
+		<div data-role="header" data-position="fixed">
+			<h1>Terms of Services</h1>
+		</div><!-- /header -->
+
+		<div data-role="content" >
+			<div>
+				<a href="#breath-instruction" data-role="button">I Agree</a>
+				<a href="#home" data-role="button">Cancel</a>
+			</div>
+			
+			<div id="tos"></div>
+			
+			<div>
+				<a href="#breath-instruction" data-role="button">I Agree</a>
+				<a href="#home" data-role="button">Cancel</a>
+			</div>
+		</div><!-- /content -->
+	</div>
+
+	<!-- Page: breathalyzer test instruction -->
+	<!-- This page should load a waiting message -->
+	<div data-role="page" id="breath-instruction">
+		<div data-role="header" data-position="fixed">
+			<h1>Breathalyzer Test</h1>
+		</div><!-- /header -->
+
+		<div data-role="content" >
+			<p>Stand close to the breathalyzer and gently blow some air into it.</p>
+			
+			<div>
+				<a data-role="button" id="breath-start">Start</a>
+				<a href="#home" data-role="button">Cancel</a>
+			</div>
+		</div><!-- /content -->
+	</div>
+	
+	<!-- Page: age identification -->
+	<div data-role="page" id="age-id">
+		<div data-role="header" data-position="fixed">
+			<h1>Age Identification</h1>
+		</div><!-- /header -->
+
+		<div data-role="content" >
+			<!--<p>Please swipe your driver's license</p>-->
+			<p>Are you over 19?</p>
+
+			<div>
+				<a href="#drink-menu" data-role="button">I am over 19</a>
+				<a href="#home" data-role="button">I am under 19</a>
+			</div>
+		</div><!-- /content -->
+	</div>
+	
+	<!-- Page: Drink Menu -->
+	<!-- Use Page: test case pass -->
+	<div data-role="page" id="pass">
+		<div data-role="header" data-position="fixed">
+			<h1>Pass</h1>
+		</div><!-- /header -->
+
+		<div data-role="content" >
+			<p>Pass</p>
+			
+			<a href="#drink1"" data-role="button">Drink 1</a>
+			<a href="#drink2"" data-role="button">Drink 2</a>
+			<a href="#drink3"" data-role="button">Drink 3</a>
+			<a href="#home" data-role="button">Cancel</a>
+		</div><!-- /content -->
+	</div>
+	
+	<!-- Page: test case wrong -->
+	<div data-role="page" id="fail">
+		<div data-role="header" data-position="fixed" data-nobackbtn="true">
+			<h1>Fail</h1>
+		</div><!-- /header -->
+
+		<div data-role="content" >
+			<p>Fail, select the options below to continue</p>
+			
+			<div>
+				<a href="#breath-instruction"" data-role="button">Try again</a>
+				<a href="#home" data-role="button">Cancel</a>
+			</div>
+		</div><!-- /content -->
+	</div>
+
+</body>
+</html>

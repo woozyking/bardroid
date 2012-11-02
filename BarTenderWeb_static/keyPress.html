@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="js/jquery.min.js"></script>
+</head>
+<body>
+<strong>Log, used to find the key code and shit</strong>
+<div id="log"></div>
+<strong>Last Result will show here, use # as the ending character</strong>
+<div id="result"></div>
+<strong>Current Values</strong>
+<div id="full"></div>
+
+<script>
+var fullText = new Array();
+var endChar = 63; // define end character here
+
+$(document).keypress( function(e) {
+	var charValue = String.fromCharCode(e.which);
+	
+	fullText = fullText + charValue;
+	//var fullText += charValue;
+	
+	$('#log').html('Event type: ' + e.type + '<br /> Key Pressed: ' + charValue + '<br /> event.which value: ' + e.which );
+	
+	if ( e.which == endChar ) {
+		// TODO: send fullText to backend and clear
+	
+		// demo show and clear
+		$('#result').html(fullText);
+		$('#full').empty();
+		
+		fullText = []; // clear the array
+	} else {
+		$('#full').append( charValue );
+		fullText.push( charValue );
+	}
+} );
+</script>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html> 
+<html>
+<head runat="server">
+    <title>Master Page</title>
+    <!-- Meta -->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <!-- CSS -->
+    <link rel="stylesheet" media="all" href="css/base.css"/>
+    <link rel="stylesheet" media="all" href="css/style.css"/>    
+    
+    <!-- Web Font -->
+    <link href='http://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+
+    <!-- JS -->
+    <script src="js/jquery_151.js"></script>
+    <script src="js/main.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+    
+</head>
+
+<body>
+    
+    <form id="form1" runat="server">
+        <div id="content">
+            <asp:contentplaceholder id="body" runat="server"></asp:contentplaceholder>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\...\BarTenderWeb\", "..\..\..\School\mac-oi6-bardroid\BarTenderWeb\", "{B2525635-F914-4819-9114-5C1E457DC541}"
+	ProjectSection(WebsiteProperties) = preProject
+		ProjectReferences = "{10F1D8D3-69D3-47A1-9B71-173AF7281357}|BarTenderController.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/BarTenderWeb"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\School\mac-oi6-bardroid\BarTenderWeb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\BarTenderWeb\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/BarTenderWeb"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\School\mac-oi6-bardroid\BarTenderWeb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\BarTenderWeb\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2143"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarTenderController", "..\..\..\School\mac-oi6-bardroid\BarTenderController\BarTenderController.csproj", "{10F1D8D3-69D3-47A1-9B71-173AF7281357}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2525635-F914-4819-9114-5C1E457DC541}.Debug|.NET.ActiveCfg = Debug|.NET
+		{B2525635-F914-4819-9114-5C1E457DC541}.Debug|.NET.Build.0 = Debug|.NET
+		{B2525635-F914-4819-9114-5C1E457DC541}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{B2525635-F914-4819-9114-5C1E457DC541}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{B2525635-F914-4819-9114-5C1E457DC541}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{B2525635-F914-4819-9114-5C1E457DC541}.Release|.NET.ActiveCfg = Debug|.NET
+		{B2525635-F914-4819-9114-5C1E457DC541}.Release|.NET.Build.0 = Debug|.NET
+		{B2525635-F914-4819-9114-5C1E457DC541}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{B2525635-F914-4819-9114-5C1E457DC541}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{B2525635-F914-4819-9114-5C1E457DC541}.Release|Mixed Platforms.Build.0 = Debug|.NET
+		{10F1D8D3-69D3-47A1-9B71-173AF7281357}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{10F1D8D3-69D3-47A1-9B71-173AF7281357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10F1D8D3-69D3-47A1-9B71-173AF7281357}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10F1D8D3-69D3-47A1-9B71-173AF7281357}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{10F1D8D3-69D3-47A1-9B71-173AF7281357}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{10F1D8D3-69D3-47A1-9B71-173AF7281357}.Release|.NET.ActiveCfg = Release|Any CPU
+		{10F1D8D3-69D3-47A1-9B71-173AF7281357}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10F1D8D3-69D3-47A1-9B71-173AF7281357}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10F1D8D3-69D3-47A1-9B71-173AF7281357}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{10F1D8D3-69D3-47A1-9B71-173AF7281357}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
